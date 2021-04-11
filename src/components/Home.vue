@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="PageTitle" style="height: 40px; text-align: center;">        
-            <h1>Studio Fever</h1>
+            <h1>Studio Rever</h1>
         </div>
         <br>
         <div class="welcome" style="  text-align: center;">
