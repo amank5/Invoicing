@@ -126,8 +126,62 @@ export default {
 </script>
 
 <style>
-    * {
-            margin: 0px;
-            padding: 0px;
+    body{
+            color: white;
+            margin: 0;
+        }
+        button{
+            background: #abc4ff;
+            padding: 5px 10px;
+            border: 1px solid #abc4ff;
+            color: white;
+            border-radius: 5px;
+        }
+        input{
+            margin: 5px;
+            padding: 5px 10px;
+            color: #8d7f7f;
+            background: transparent;
+            outline: none;
+            border: 1px solid #8d7f7f;
+            border-radius: 5px;
+        }
+        .body{
+            display: flex;
+            flex-direction: column;
+        }
+        .topdiv{
+            width: 50vw;
+            display: flex;
+        }
+        
+        .topdiv tr {
+            width: 50vw;
+            display: flex;
+            justify-content: space-between;
+        }
+        .custdetail tr {
+            width: 50vw;
+            display: flex;
+            justify-content: space-between;
+        }
+        .topdiv td {
+             display: flex;
+             flex-direction: column;
+        }
+        .topdiv td div {
+             display: flex;
+             flex-direction: column;
+        }
+        .custdetail td {
+             display: flex;
+             flex-direction: column;
+        }
+        .custdetail td div {
+             display: flex;
+             flex-direction: column;
+        }
+        img{
+            margin: 50px;
         }
 </style>
